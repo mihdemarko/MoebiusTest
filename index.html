@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Test Task</title>
+
+    <!-- Bootstrap -->
+    <link href="resources/externals/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row header-first">
+    <p class="text-center">WANTED</p>
+  </div>
+
+  <div class="row header-second">
+    <div class="col-md-4 col-md-offset-4">
+      <div class="col-md-2 stars"></div>
+      <div class="col-md-8">
+        <h1 class="text-center">NO.1</h1>
+        <h6 class="text-center">FRONT-END</h6>
+        <hr/>
+        <p class="text-center">DEVELOPER</p>
+      </div>
+      <div class="col-md-2 stars"></div>
+    </div>
+    <div class="col-md-6 col-md-offset-3 text-center">
+      <div class="col-md-2"><a href="">we need</a></div>
+      <div class="col-md-3"><a href="">we propose</a></div>
+      <div class="col-md-3"><a href="">who we are</a></div>
+      <div class="col-md-4"><a href="" class="bonus">contact information</a></div>
+    </div>
+  </div>
+
+  <div class="row carousel-class">
+    <div id="carousel-vertical" class="carousel vertical slide" data-ride="carousel">
+  <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-vertical" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-vertical" data-slide-to="1"></li>
+        </ol>
+
+              <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="container-fluid">
+              <div class="col-md-4" >
+                <h1 class="We-need">We need...</h1>
+                <p>front-end developer who can</p>
+                <img src="resources/pictures/calendar.png" alt="calendar"/>
+              </div>
+              <div class="col-md-8 text-carousel">
+                <h2 class="Complete-test">Complete this test considering to the list below</h2>
+                <ul>
+                  <li>All images should be placed in sprites </li>
+                  <li>Google map in the footer should work properly</li>
+                  <li>Working Carousel (there are several slides in <span class="test">test.ps</span>)</li>
+                  <li>Add proper style to every link resolve in <span><span class="glyphicon g-new-window" aria-hidden="true"></span>new window</span></li>
+                  <li>Simple forms describe with css instead of &lt;img&gt; where possible</li>
+                  <li>Optimized for fast loading in browsers</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="contailner-fluid">
+              <div class="row">
+                <div class="col-md-4">
+                  <h1 class="We-need">We need...</h1>
+                  <p>front-end developer who can</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="resources/pictures/pc.png" alt="pc" class="pull-right">
+                </div>
+                <div class="col-md-4">
+                  <img src="resources/pictures/Bootstrap.png" alt="bootstrap" class="center-block">
+                </div>
+                <div class="col-md-4">
+                  <img src="resources/pictures/calendar2.png" alt="calendar2">
+                </div>
+              </div>
+              <div class="row slide2-text">
+                <div class="col-md-3 col-md-offset-1"><p class="pull-right">Describe all elements by native html/css <br>(sass if you want)</p></div>
+                <div class="col-md-4"><p>Do it on bootstrap 3</p></div>
+                <div class="col-md-3"><p>Do work <br> for two days</p></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+  </div>
+  <div class="row main">
+    <div class="container">
+      <div class="col-md-12"><h1>We propose...</h1></div>
+      <div class="col-md-3"><div></div></div>
+      <div class="col-md-9"><div></div></div>
+      <div class="col-md-3"><div></div></div>
+      <div class="col-md-6"><div></div></div>
+      <div class="col-md-3"><div></div></div>
+      <div class="col-md-12">
+        <p class="text-center">SHOW ALL PROPOSITIONS</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="row contacts">
+    <div class="container">
+      <div class="col-md-4">
+        <div class="row">
+          <h3>That's where we are</h3>
+        </div>
+        <div class="col-md-6">
+          <h6>EMAIL</h6>
+          <p>cv@moebius.labs</p>
+        </div>
+        <div class="col-md-6">
+          <h6>PHONE NUMBER</h6>
+          <p>+38 012 345 67 89</p>
+        </div>
+        <div class="col-md-6">
+          <h6>LOCATION</h6>
+          <p>61000 Kharkov, Ukraine, Kosmicheskaya, 21</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          <h3>Say hello!</h3>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="email">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group message">
+          <textarea class="form-control" rows="3" placeholder="HOVER STATE"></textarea>
+          <button class="btn">SEND MESSAGE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row map" id="map"></div>
+  <div class="row footer"></div>
+</div>
+
+<div class="about-us"></div>
+<div class="offer">
+
+    <div class="row"><a class="accept-offer">ACCEPT AN OFFER</a></div>
+    <div class="col-md-12"> </div>
+
+</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="resources/externals/jquery/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="resources/externals/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+    <script src="resources/js/main.js"></script>
+</body>
+</html>

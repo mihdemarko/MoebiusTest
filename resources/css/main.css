@@ -1,0 +1,375 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700,400,300);
+
+body {
+  font-family: Lato;
+  width: 100%;
+  height: 4151px;
+}
+
+hr {
+  border-color: black;
+  margin-bottom: 10px;
+}
+
+.header-first {
+  background-color: #e3e3e3;
+  height: 60px;
+}
+
+.header-first > p {
+
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+}
+
+.header-second {
+  height: 322px;
+}
+
+.header-second >.col-md-4 {
+  margin-top: 48px;
+  height: 155px;
+  border: 1px solid;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: 'Courier New';
+}
+
+.header-second .col-md-4 >.col-md-2{
+  height: 155px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.header-second .col-md-4 >.col-md-8{
+  margin-top: 0px;
+  height: 155px;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.header-second .col-md-4 .col-md-8 >h1{
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 50.4px;
+  margin-right: -50.4px;
+}
+
+.header-second .col-md-4 .col-md-8 >h6{
+  font-size: 12.24px;
+  font-weight: 700;
+  letter-spacing: 22px;
+  line-height: 20px;
+  margin-right: -22px;
+}
+
+.header-second .col-md-4 .col-md-8 >p{
+  font-size: 8.93px;
+  font-weight: 700;
+  letter-spacing: 24px;
+  line-height: 20px;
+  margin-right: -24px;
+}
+
+.header-second .col-md-6 {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+.header-second .col-md-6 a{
+  color: #000000;
+}
+
+.header-second .col-md-6 a:hover{
+  color: #ff4622;
+  text-decoration: none;
+}
+
+.header-second .col-md-6 a:visited{
+  color: #ff4622;
+}
+
+.carousel-class {
+  background-color: #ff4622;
+  height: 645px;
+}
+
+#carousel-vertical {
+  height: 645px;
+}
+
+.We-need {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.We-need+p{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: right;
+  margin-right: 20px;
+}
+
+img[alt="calendar"]{
+  width: 226px;
+  height: 316px;
+  margin-top: 40px;
+  margin-left: 75px;
+}
+
+.We-need::selection, .We-need+p::selection,img[alt="calendar"]::selection{
+  background-color: #0066ff;
+}
+
+.text-carousel{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 120px;
+}
+
+.Complete-test {
+  color: #732312;
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 60px;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+.Complete-test + ul{
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 60px;
+  text-align: left;
+  list-style-type: none;
+  letter-spacing: 0px;
+}
+
+.Complete-test + ul li::selection,.Complete-test::selection{
+  background-color: #732212;
+}
+.Complete-test + ul li span::selection{
+  background-color: #732212;
+}
+.test{
+  color: #732212;
+}
+.glyphicon-new-window{
+  font-size: 0.6em;
+}
+
+img[alt="pc"]{
+  margin-top: 55px;
+  width: 257px;
+  height: 224px;
+}
+
+.slide2-text{
+  margin-top: 30px;
+}
+
+.slide2-text .col-md-4 > p,.slide2-text .col-md-3 > p {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+
+img[alt="calendar2"]{
+  margin-top: 50px;
+  width: 250px;
+  height: 229px;
+}
+
+img[alt="bootstrap"]{
+  margin-top: 117px;
+  width: 100px;
+  height: 100px;
+}
+
+.main{
+  background-color: #f0f0f0;
+  height: 1606px;
+}
+
+.main > .container{
+  margin-top: 70px;
+}
+
+.main .container > .col-md-12{
+  margin-bottom: 70px;
+}
+
+.main .container .col-md-12 > h1{
+  font-size: 72px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.main .container > .col-md-3,.main .container > .col-md-6,.main .container > .col-md-9{
+  height: 418px;
+  margin-bottom: 30px;
+}
+
+.main .container .col-md-3 >div,.main .container .col-md-6>div,.main .container .col-md-9>div{
+  background-color: #ffffff;
+  width:100%;
+  height: 100%;
+}
+
+.main .container > .col-md-12{
+  margin-top: 70px;
+}
+
+.main .container .col-md-12 > p{
+  font-family: Lato;
+  color: #4800ff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contacts {
+  height: 923px;
+}
+
+.contacts > .container{
+  margin-top: 50%;
+}
+
+.message{
+  margin-top:56px;
+}
+
+.message > button {
+  margin-top: 15px;
+}
+
+.map {
+  height: 395px;
+}
+
+.footer {
+  height: 200;
+}
+
+.about-us {
+  background-color: #dcdcdc;
+  height: 318px;
+  position:relative;
+  margin-left:15%;
+  width:70%;
+  z-index: 15;
+  top: -1478px;
+
+}
+
+.offer{
+  position:relative;
+  width: 70%;
+  margin-left:15%;
+  height: 263px;
+  z-index: 14;
+  top: -1640px;
+  border:6px dashed blue;
+}
+
+.offer > .row{
+  margin-top: 200px;
+  text-align: center;
+}
+
+.accept-offer{
+  font-family: Lato;
+  color: #4800ff;
+  font-size: 18px; /* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  line-height: 23px; /* Приближение из-за подстановки шрифтов */
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+
+/*Vertical carousel*/
+
+
+.vertical .carousel-inner {
+    height: 100%;
+}
+
+.carousel.vertical .item {
+    -webkit-transition: 0.6s ease-in-out top;
+    -moz-transition: 0.6s ease-in-out top;
+    -ms-transition: 0.6s ease-in-out top;
+    -o-transition: 0.6s ease-in-out top;
+    transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+    top: 0;
+}
+
+.carousel.vertical .next {
+    top: -100%;
+}
+
+.carousel.vertical .prev {
+    top: -100%;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+    top: 0;
+}
+
+.carousel.vertical .active.left {
+    top: 100%;
+}
+
+.carousel.vertical .active.right {
+    top: 100%;
+}
+
+.carousel.vertical .item {
+    left: 0;
+}
+
+.carousel.vertical .carousel-control {
+    bottom: inherit;
+    top: inherit;
+}
+
+.carousel.vertical .carousel-control.left {
+    top: 0;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 45%;
+  width:2%;
+  margin-left: 46%;
+  display: block;
+}
+
+.carousel-indicators li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.carousel-indicators .active {
+  display: block;
+  margin-bottom: 10px;
+}
